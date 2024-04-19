@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Subway';
+    src: url('fuentes/Subway_Haze_1.1.ttf');
+    font-family: 'Kelano';
+    src: url(fuentes/Kelano\ Remora.otf)
+}
+.Subway{
+    font-family: 'Subway';
+    letter-spacing: 0.5rem;
+    
+}
+.Kelano{
+    font-family: 'Kelano';
+    letter-spacing: 0.2rem;
+    
+}
+
+body{
+    background: #edeae6;  
+}
+.colornav{
+    background-color: #edeae6;
+}
+.centro{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;  
+}
+.titulo{
+    color: #c14242;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+h3{
+    color:#928249;
+}
+#emma{
+    background-color: #edeae6;
+    padding-bottom: 1rem;
+    color: rgb(50, 101, 110);
+}
+#autor{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #32656e;
+    color:#edeae6;  
+}
+.separador{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+p{
+    font-family: sans-serif;
+    margin-left:10rem;
+    margin-right:10rem;
+    padding-top: 2rem;
+}
+.imgEmma{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: 40vh;
+    margin: 5px;
+
+    border-radius: 3px; 
+}
+.imgAutor{
+    display: flex;
+    float: right;
+    height:50vh;
+    margin-left:1rem;
+    margin-right: 10rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
