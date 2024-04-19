@@ -21,6 +21,9 @@ body{
 .colornav{
     background-color: #edeae6;
 }
+.nav-link {
+    color: rgb(50, 101, 110) !important;
+ }
 .centro{
     display:flex;
     align-items: center;
