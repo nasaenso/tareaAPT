@@ -7,12 +7,10 @@
 .Subway{
     font-family: 'Subway';
     letter-spacing: 0.5rem;
-    
 }
 .Kelano{
     font-family: 'Kelano';
     letter-spacing: 0.2rem;
-    
 }
 
 body{
@@ -35,9 +33,7 @@ body{
     width: 100vw;
     display:flex;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
 h3{
     color:#928249;
@@ -71,7 +67,6 @@ p{
     margin-top: 0;
     height: 40vh;
     margin: 5px;
-
     border-radius: 3px; 
 }
 .imgAutor{
