@@ -13,9 +13,6 @@
     letter-spacing: 0.2rem;
 }
 
-body{
-    background: #edeae6;  
-}
 .colornav{
     background-color: #edeae6;
 }
@@ -27,6 +24,7 @@ body{
     align-items: center;
     justify-content: center; 
     flex-direction: column;  
+    overflow: hidden;  
 }
 .titulo{
     color: #c14242;
@@ -56,8 +54,8 @@ h3{
 }
 p{
     font-family: sans-serif;
-    margin-left:10rem;
-    margin-right:10rem;
+    margin-left:2rem;
+    margin-right:2rem;
     padding-top: 2rem;
 }
 .imgEmma{
@@ -71,10 +69,9 @@ p{
 }
 .imgAutor{
     display: flex;
-    float: right;
     height:50vh;
-    margin-left:1rem;
-    margin-right: 10rem;
+    /*margin-left:1rem;
+    margin-right: 10rem;*/
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
