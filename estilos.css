@@ -2,7 +2,10 @@
     font-family: 'Subway';
     src: url('fuentes/Subway_Haze_1.1.ttf');
     font-family: 'Kelano';
-    src: url(fuentes/Kelano\ Remora.otf)
+    src: url(fuentes/Kelano\ Remora.otf);
+    font-family: 'Libre_Franklin';
+    src: url(fuentes/LibreFranklin-VariableFont_wght.ttf);
+    
 }
 .Subway{
     font-family: 'Subway';
@@ -11,6 +14,9 @@
 .Kelano{
     font-family: 'Kelano';
     letter-spacing: 0.2rem;
+}
+.Libre_Franklin{
+    font-family: 'Libre_Franklin';
 }
 
 .colornav{
@@ -53,7 +59,7 @@ h3{
     object-fit: cover;
 }
 p{
-    font-family: sans-serif;
+    
     margin-left:2rem;
     margin-right:2rem;
     padding-top: 2rem;
