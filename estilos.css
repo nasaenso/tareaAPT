@@ -7,6 +7,7 @@
     src: url(fuentes/LibreFranklin-VariableFont_wght.ttf);
     
 }
+
 .Subway{
     font-family: 'Subway';
     letter-spacing: 0.5rem;
@@ -15,17 +16,27 @@
     font-family: 'Kelano';
     letter-spacing: 0.2rem;
 }
-.Libre_Franklin{
-    font-family: 'Libre_Franklin';
-}
+.raleway-1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.colornav{
+.colornav, footer{
     background-color: #edeae6;
 }
-.nav-link {
-    color: rgb(50, 101, 110) !important;
- }
-.centro{
+footer{
+    background-color: #dad7d3;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: small;
+    letter-spacing: 0.1rem;
+    color:#7c7c7b
+}
+.centro, .opinionNombre{
     display:flex;
     align-items: center;
     justify-content: center; 
@@ -42,8 +53,9 @@
 h3{
     color:#928249;
 }
-#emma{
+#emma, #carouselExampleDark{
     background-color: #edeae6;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgb(50, 101, 110);
 }
@@ -58,13 +70,12 @@ h3{
     height: fit-content;
     object-fit: cover;
 }
-p{
-    
+.autorbiografia,.emmalibrodesc{
     margin-left:2rem;
     margin-right:2rem;
     padding-top: 2rem;
 }
-.imgEmma{
+.imgEmma, .perfil{
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -76,9 +87,22 @@ p{
 .imgAutor{
     display: flex;
     height:50vh;
-    /*margin-left:1rem;
-    margin-right: 10rem;*/
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
 }
+.perfil{
+    height: 10vh;
+    margin-bottom: 0;
+}
+.opinion{
+    text-align: center;
+    margin: 0px 300px 20px 300px;
+    font-family: "Roboto", sans-serif;
+}
+.opinionNombre{
+    color: #32656e;
+    font-weight: lighter;
+    font-size: larger;
+}
+
