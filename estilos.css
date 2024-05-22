@@ -3,8 +3,6 @@
     src: url('fuentes/Subway_Haze_1.1.ttf');
     font-family: 'Kelano';
     src: url(fuentes/Kelano\ Remora.otf);
-    font-family: 'Libre_Franklin';
-    src: url(fuentes/LibreFranklin-VariableFont_wght.ttf);
     
 }
 
@@ -21,8 +19,14 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
+.principal {
+    color:#c14242;
+}
+.secundario{
+    color: rgb(50, 101, 110);
+}
 .colornav, footer{
     background-color: #edeae6;
 }
@@ -36,7 +40,7 @@ footer{
     letter-spacing: 0.1rem;
     color:#7c7c7b
 }
-.centro, .opinionNombre{
+.centro{
     display:flex;
     align-items: center;
     justify-content: center; 
@@ -53,15 +57,13 @@ footer{
 h3{
     color:#928249;
 }
-#emma, #carouselExampleDark{
+#emma, #carouselExampleDark, #autor{
     background-color: #edeae6;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgb(50, 101, 110);
 }
 #autor{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     background-color: #32656e;
     color:#edeae6;  
 }
@@ -77,11 +79,8 @@ h3{
 }
 .imgEmma, .perfil{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    height: 40vh;
     margin: 5px;
+    height: 40vh;
     border-radius: 3px; 
 }
 .imgAutor{
@@ -98,11 +97,11 @@ h3{
 .opinion{
     text-align: center;
     margin: 0px 300px 20px 300px;
-    font-family: "Roboto", sans-serif;
+    
 }
 .opinionNombre{
     color: #32656e;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: larger;
 }
 
