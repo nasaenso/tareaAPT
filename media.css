@@ -13,4 +13,12 @@
     .autorbiografia{
         padding-top: 0;
     }
+    h3{
+        margin-top:10px;
+        margin-bottom: 0;
+    }
+    .opinion{
+        margin-left:2rem;
+    margin-right:2rem;
+    }
 }
