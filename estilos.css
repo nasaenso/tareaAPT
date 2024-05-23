@@ -3,7 +3,6 @@
     src: url('fuentes/Subway_Haze_1.1.ttf');
     font-family: 'Kelano';
     src: url(fuentes/Kelano\ Remora.otf);
-    
 }
 
 .Subway{
@@ -22,7 +21,8 @@
 }
 
 .principal {
-    color:#c14242;
+    color:#aa3b3b;
+    font-weight: bold;
 }
 .secundario{
     color: rgb(50, 101, 110);
@@ -57,7 +57,7 @@ footer{
 h3{
     color:#928249;
 }
-#emma, #carouselExampleDark, #autor{
+#emma, #opiniones, #autor{
     background-color: #edeae6;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -97,7 +97,6 @@ h3{
 .opinion{
     text-align: center;
     margin: 0px 300px 20px 300px;
-    
 }
 .opinionNombre{
     color: #32656e;
